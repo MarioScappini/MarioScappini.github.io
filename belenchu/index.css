@@ -3,4 +3,17 @@ background-color:rgb(162, 228, 184);
 }
 h1{
     padding: 25px;
+    color: white;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Open Sans';
+    text-shadow: horizontal-offset vertical-offset blur color;
+    font-size: 50px;
+}
+h2{
+    padding: 25px;
+    color: rgb(255,105,97);
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Open Sans';
+    text-shadow: horizontal-offset vertical-offset blur color;
+    font-size: 30px;
 }
