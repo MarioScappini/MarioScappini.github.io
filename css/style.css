@@ -1,8 +1,29 @@
 
-p{
-    font-family: 'Raleway', sans-serif;
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../img/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
-h3{
-color: white;
-    font-family: 'Raleway', sans-serif;
+.bg{
+    margin-bottom: 0px;
+    height: 100vh; 
 }
+
+.row-margin{
+    margin-top: 2em;
+}
+.row{
+    background-color: #f1faee	;
+    margin: auto;
+    padding: 1.2em;
+    
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;Resume
+  }
