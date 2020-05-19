@@ -6,130 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mario Scappini">
- 
-
     <title>Mario Scappini</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-      
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-      <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-  
-    <link href="css/cover.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-  <body>
+  </head>
+  <body>  
+      <div class="container-fluid bg vertical-center">
+        <div class="row align-items-center ">
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li id="home" class="active"><a href="#">Home</a></li>
-                  <li><a id="portfolio" class="" href="#">Portfolio</a></li>
-                  
-                </ul>
-              </nav>
+          <div class="col-lg-12 text-center">
+              <img class="rounded-circle profile-img text-center" src="img/index.png"/>
+              <br>
+              <h1 class="display-4" >Mario Scappini</h1>
+              <h4 class="font-italic" style="color: #e63946;">Web Developer</h4>
+          </div>
+            <div class="col-md-4 text-center row-margin" >
+              <a class="menu-item">RESUME</a>
             </div>
-          </div>
-
-          <div id="hometab" class="inner cover">
-            <h1 class="cover-heading" style="font-family: 'Raleway', sans-serif; color:white;">Mario Scappini</h1>
-              
-            <p class="lead" style="font-family: 'Raleway', sans-serif;"> </p>
-             <hr>
-              <ul class="cont">
-    <li class="social"><a  class="" href="https://twitter.com/MarioScappini99"><img src="img/1450737738_twitter-square-social-media.svg"/></a></li>
-    <li class="social"><a  class="" href="https://plus.google.com/u/0/109601187472045427924/posts"><img src ="img/1450737763_google_plus-square-social-media.svg"/></a></li>
-    <li class="social"><a  class="" href="https://github.com/MarioScappini"><img src ="img/1450739183_github-square-social-media.svg"/></a></li>
-            </ul>
-          </div>
-            
-            
-       
-
-             <div id="portfoliotab" class="inner cover ">
-          
+            <div class="col-md-4 text-center row-margin">
+              <a class="menu-item">PROYECTS</a>
+            </div>
+            <div class="col-md-4 text-center row-margin ">
+              <a class="menu-item">CONTACT</a>
+            </div>
             
           
-              
-              <div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/onepage.png" alt="...">
-      <div class="caption">
-        <h3>One-Page,resposive website</h3>
-          <hr>
-       <p style="color:white;">I built a front-end page, responsive/mobile website using javascript, html and css</p>
-            <a href="portfolio/OnePage/index.html" class="btn view btn-default">View</a>
-      </div>
-    </div>
-  </div>
-                    <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/blog.png" alt="...">
-      <div class="caption">
-        <h3>Responsive Blog template</h3>
-          <hr>
-       <p style="color:white;">I built a front-end page, responsive/mobile website using jquery, html, css and php</p>
-            <a href="portfolio/blog/index.html" class="btn view btn-default">View</a>
-      </div>
-    </div>
-  </div>
-</div>
-                     
-                
+         
         </div>
-
-         
-
-        </div>
-
       </div>
+     
 
-    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script>
-      $("#contacttab").hide();
-          $("#portfoliotab").hide();
-          
-      
-      </script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-      <script>
-  
-        $("#home").click(function(){
-        $("#portfoliotab").hide(100);
-        $("#hometab").show(100);
-        $("#home").addClass("active");
-        $("#portfolio").removeClass("active");
-         
-});
-             $("#portfolio").click(function(){
-        $("#hometab").hide(100);
-        $("#portfoliotab").show(100);        
-        $("#portfolio").addClass("active");
-        $("#home").removeClass("active");
-                 
-         
-         
-});
-        
-      
-      </script>
   </body>
 </html>
